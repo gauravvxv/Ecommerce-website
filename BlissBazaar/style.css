@@ -3,7 +3,7 @@ body {
 }
 
 .container {
-    background-color: burlywood;
+    background-color: rgb(250, 215, 232);
 }
 
 .navbar {
@@ -13,7 +13,7 @@ body {
     height: 100px;
 }
 
-.logo > img {
+.logo>img {
     width: 290px;
     height: 220px;
     margin-top: -70px;
@@ -38,9 +38,76 @@ body {
 }
 
 .navItem>ul :hover {
-    color: blue;
+    color: red;
 }
 
 a>img {
     width: 30px;
+}
+
+
+.intro>h5{
+    font-size: 50px;
+    width: 500px;
+    /* background-color: #ff523b; */
+    padding-left: 30px;
+    margin-top: -30px;
+}
+
+.intro>p {
+    color: #5f5b5a;
+    font-size: 15px;
+    margin-top: -70px;
+    padding-left: 30px;
+    width: 500px;
+}
+
+.intro>button {
+    background-color: #ff523b;
+    border: none;
+    width: 140px;
+    color: white;
+    height: 40px;
+    border-radius: 20px;
+    margin-left: 40px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.main-container {
+    background-color: rgb(250, 215, 232);
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+.child {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding-top: 80px;
+}
+
+.intro-img>img {
+    width: 70%;
+    margin-top: -15%; 
+ margin-left: 15%;
+
+}
+
+.middle{
+     padding-top: 80px;
+     padding-bottom: 80px;
+}
+
+.child-mid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    width: 80%;
+    padding-left: 120px;
+}
+
+.image>img{
+    width: 100%;
+    height: 350px;
 }
