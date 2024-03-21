@@ -1,37 +1,4 @@
 {
-    "orders": [
-      {
-        "User": "Uttam Kr Shaw",
-        "Ordered Item": [
-          {
-            "id": 304,
-            "name": "women",
-            "price": 1290,
-            "email": "tduell5l@ameblo.jp",
-            "gender": "female",
-            "description": "Bikini top with removable cups, a V-neckline, braided tied detail at the neck and fastening at the back.",
-            "category": "bikini",
-            "image": "https://img101.urbanic.com/v1/goods-pic/d247a710a309474fa2ffc0835f0f2a54_w1000_q90.webp",
-            "discount": "STRING BIKINI SET"
-          }
-        ],
-        "id": 1
-      }
-    ],
-    "userdata": [
-      {
-        "name": "Uttam Kr Shaw",
-        "email": "uttamkr5599@gmail.com",
-        "username": "Uttam Kr Shaw",
-        "password": "12345678",
-        "mobile": "9091390251",
-        "description": "Dhanbad",
-        "address": "Chirkunda",
-        "pin_code": "828203",
-        "city": "Dhanbad",
-        "id": 1
-      }
-    ],
     "data": [
       {
         "id": 1,
