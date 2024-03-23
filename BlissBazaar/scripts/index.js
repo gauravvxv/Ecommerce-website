@@ -79,28 +79,6 @@ const data2 = [
     discount: "GOLDEN JACQUARD FLARED BERMUDA SHORTS"
   },
   {
-    id: 203,
-    name: "women",
-    price: 1460,
-  email: "tduell5l@ameblo.jp",
-    gender: "female",
-    description: "High-waist Bermuda shorts with front pockets. Flared hems. Front zip fly, interior button and metal hook fastening.",
-    category: "shorts",
-    image: "https://static.zara.net/photos///2022/I/0/1/p/8073/279/830/2/w/750/8073279830_6_1_1.jpg?ts=1667549942200",
-    discount: "GOLDEN JACQUARD FLARED BERMUDA SHORTS"
-  },
-  {
-    "id": 204,
-    "name": "women",
-    "price": 1460,
-    "email": "tduell5l@ameblo.jp",
-    "gender": "female",
-    "description": "High-waist Bermuda shorts with front pockets. Flared hems. Front zip fly, interior button and metal hook fastening.",
-    "category": "shorts",
-    "image": "https://static.zara.net/photos///2022/I/0/1/p/8073/279/830/3/w/750/8073279830_1_1_1.jpg?ts=1667828968379",
-    "discount": "GOLDEN JACQUARD FLARED BERMUDA SHORTS"
-  },
-  {
     "id": 168,
     "name": "men",
     "price": 499,
@@ -121,17 +99,6 @@ const data2 = [
     "category": "tshirt",
     "image": "https://static.zara.net/photos///2022/I/0/2/p/1165/300/250/2/w/850/1165300250_2_1_1.jpg?ts=1660722848553",
     "discount": "ANIMAL PRINT T-SHIRT"
-  },
-  {
-    "id": 184,
-    "name": "men",
-    "price": 1599,
-    "email": "sarch53@scribd.com",
-    "gender": "Male",
-    "description": "Round neck T-shirt with a button-up front and long sleeves.",
-    "category": "tshirt",
-    "image": "https://static.zara.net/photos///2022/I/0/2/p/6462/340/800/2/w/850/6462340800_2_1_1.jpg?ts=1663054959496",
-    "discount": "T-SHIRT WITH BUTTONED NECK"
   },
   {
     "id": 193,
@@ -176,3 +143,5 @@ data2.map(function (elem, ind) {
   parent.append(child);
 
 })
+
+
