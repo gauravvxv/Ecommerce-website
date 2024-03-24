@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/products.css">
+</head>
+<body>
+    <div class="container">
+        <div class="parent">
+        <div class="child">
+            <a href="./index.html">
+            <img src="./Images/attachment_19644128-removebg-preview.png" alt="" class="logo">
+        </a>
+        </div>
+        <div class="child">
+            <input type="text" name="search" id="search" placeholder="Search">
+        </div>
+        <div class="child">
+            <a href="">
+<img src="./Images/cart.png" alt="" class="cart">
+            </a>
+    </div>
+</div>
+
+<div class="filter">
+    <div class="gender">
+        <button class="filter-btn" data-gender="men">Men</button>
+        <button class="filter-btn" data-gender="women">Women</button>
+    </div>
+    <div  class="gender">
+        <select name="" id="price">
+            <option value="">Choose</option>
+            <option value="Asc">Low to High</option>
+            <option value="Desc">High to Low</option>
+        </select>
+    </div>
+</div>
+
+
+        <div class="prod">
+<!-- fetching all products here -->
+        </div>
+
+
+<div class="pagination">
+    <div class="btns">
+        <button id="prev">Previous</button>
+        <button id="next">Next</button>
+    </div>
+</div>
+
+</body>
+</html>
+<script src="./scripts/product.js"></script>
